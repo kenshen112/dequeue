@@ -34,11 +34,13 @@ void nowServing()
    int time;
    requestData rData;
 
+   //Example function calls for service request. We can move them later.
    request.getRequest();
    request.setRequest(rData);
    request.incrementTime(time);
    request.removeRequest();
    request.display();
+
    // end
    cout << "End of simulation\n";
 }
