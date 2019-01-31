@@ -155,6 +155,7 @@
     <ClInclude Include="deque.h" />
     <ClInclude Include="nowServing.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="ServiceRequest.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="assignment04.cpp" />
@@ -166,6 +167,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="serviceRequest.cpp" />
     <ClCompile Include="testNormalize.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

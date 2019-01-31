@@ -12,9 +12,11 @@
 #define NOW_SERVING_H
 
 #include "deque.h"     // for DEQUE
+#include "ServiceRequest.h"
 
-// the interactive nowServing program
+// prototype functions
 void nowServing();
+
 
 #endif // NOW_SERVING_H
 

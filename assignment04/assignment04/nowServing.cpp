@@ -30,7 +30,15 @@ void nowServing()
    cout << "\tfinished                     : end simulation\n";
 
    // your code here
+   ServiceRequest request;
+   int time;
+   requestData rData;
 
+   request.getRequest();
+   request.setRequest(rData);
+   request.incrementTime(time);
+   request.removeRequest();
+   request.display();
    // end
    cout << "End of simulation\n";
 }

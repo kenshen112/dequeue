@@ -1,0 +1,12 @@
+﻿  pch.cpp
+  assignment04.cpp
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(345): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  deque.cpp
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.cpp(1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  nowServing.cpp
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\nowserving.cpp(44): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  serviceRequest.cpp
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\servicerequest.cpp(63): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  testNormalize.cpp
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\testnormalize.cpp(72): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  Generating Code...
