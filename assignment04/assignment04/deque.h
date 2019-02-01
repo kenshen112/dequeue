@@ -43,8 +43,7 @@ public:
 	{
 		assert(rhs.numCapacity >= 0);
 
-		numPush = 0;
-		numPop = 0;
+		clear();
 
 		if (numCapacity < rhs.size())
 		{
@@ -59,9 +58,9 @@ public:
 			throw "ERROR: Unable to allocate buffer";
 		}
 		numCapacity = rhs.numCapacity;
-		int tempPop = rhs.numPop;
+		int tempFront= rhs.iFront;
 
-		for (int i = rhs.numPop; i < rhs.numPush; i++)
+		for (int i = rhs.iBack; i < rhs.iFront; i++)
 		{
 			push(rhs.data[i % rhs.numCapacity]);
 		}
@@ -72,10 +71,9 @@ public:
    *******************************************/
    deque<T> & operator=(deque<T>& rhs)
    {
-      clear();
       if (rhs.numCapacity == 0)
       {
-         clear()
+		  clear();
          return *this;
       }
 
@@ -141,35 +139,36 @@ public:
 };
 
 template<class T>
-void deque<T>::pushBack(T & item)
+void deque<T>::pushBack(T & element)
 {
 	if (numCapacity == 0)
 	{
 		resize(1);
 	}
-	else if (numPush == numCapacity)
+	else if (iBack == numCapacity)
 	{
 
 		resize(numCapacity *= 2);
 	}
-	numPush++;
+	iBack++;
 	data[iBack] = element;
 
 }
 
 template<class T>
-void deque<T>::pushFront(T & item)
+void deque<T>::pushFront(T & element)
 {
 	if (numCapacity == 0)
 	{
 		resize(1);
 	}
-	else if (numPush == numCapacity)
+	else if (iFront == numCapacity)
 	{
 
 		resize(numCapacity *= 2);
 	}
-	numPush++;
+
+	iFront++;
 	data[iFront] = element;
 
 
@@ -210,6 +209,9 @@ void deque<T>::popFront()
 template<class T>
 void deque<T>::resize(int numCapacity)
 {
+
+	int capacityNew = 0;
+
    // do nothing if there is nothing to do
    if (capacityNew < numCapacity)
    {
@@ -219,7 +221,7 @@ void deque<T>::resize(int numCapacity)
    {
       T *dataNew = new T[capacityNew];
 
-      for (int i = numPop; i < numPush; i++) {
+      for (int i = 0; i < iFront; i++) {
          dataNew[i] = data[i];
       }
 
@@ -255,7 +257,7 @@ Is it empty?
 template<class T>
 bool deque<T>::empty()
 {
-   if (numPush == numPop)
+   if (iBack == iFront)
    {
       return true;
    }
@@ -316,7 +318,7 @@ T deque<T>::back()
 template<class T>
 int deque<T>::iFrontNormalized()
 {
-   return iHead % numCapacity;
+   return iFront % numCapacity;
 }
 
 /**********************
