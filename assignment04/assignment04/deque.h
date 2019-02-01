@@ -20,7 +20,7 @@ private:
 	int iBack;
 	int numCapacity;
 	bool isEmpty;
-	T data;
+	T *data;
 
 public:
 	/*************************
