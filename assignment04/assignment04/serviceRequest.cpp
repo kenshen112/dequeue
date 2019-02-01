@@ -29,7 +29,7 @@ void ServiceRequest::getRequest()
 * SERVICEREQUEST : setRequest
 * sets/updates request data
 ***********************************************/
-void ServiceRequest::setRequest(deque request)
+void ServiceRequest::setRequest(requestData rData)
 {
 
 }
