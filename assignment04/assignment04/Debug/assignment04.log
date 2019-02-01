@@ -1,24 +1,3 @@
 ﻿  assignment04.cpp
-c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(123): error C2664: 'void custom::deque<double>::push_back(T &)': cannot convert argument 1 from 'double' to 'T &'
-          with
-          [
-              T=double
-          ]
-  nowServing.cpp
-  serviceRequest.cpp
-c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(35): error C2679: binary '=': no operator found which takes a right-hand operand of type 'T *' (or there is no acceptable conversion)
-          with
-          [
-              T=requestData
-          ]
-  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\servicerequest.h(31): note: could be 'requestData &requestData::operator =(requestData &&)'
-  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\servicerequest.h(31): note: or       'requestData &requestData::operator =(const requestData &)'
-  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(35): note: while trying to match the argument list '(T, T *)'
-          with
-          [
-              T=requestData
-          ]
-  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(29): note: while compiling class template member function 'custom::deque<requestData>::deque(void)'
-  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\servicerequest.cpp(15): note: see reference to function template instantiation 'custom::deque<requestData>::deque(void)' being compiled
-  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\servicerequest.h(41): note: see reference to class template instantiation 'custom::deque<requestData>' being compiled
-  Generating Code...
+testNormalize.obj : error LNK2005: _main already defined in assignment04.obj
+C:\Users\Kenyon B\source\repos\kenshen112\dequeue\assignment04\Debug\assignment04.exe : fatal error LNK1169: one or more multiply defined symbols found

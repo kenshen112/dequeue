@@ -10,11 +10,9 @@
 #define DEQUE_H
 #include <assert.h>
 
-namespace custom
-{
+namespace custom {
 template <class T>
-class deque
-{
+class deque {
 private:
 	int iFront;
 	int iBack;
@@ -23,61 +21,10 @@ private:
 	T *data;
 
 public:
-	/*************************
-	* Default Constructor
-	**************************/
-	deque()
-	{
-		iFront = 0;
-		iBack = 0;
-		numCapacity = 0;
-		isEmpty = true;
-		data = new T[numCapacity];
-	}
-
-	/*******************************
-	* Non Default Constrctor
-	********************************/	  
-	deque(int amount)
-	{
-		iFront = 0;
-		iBack = 0;
-		numCapacity = amount;
-		data = new T[numCapacity];
-		isEmpty = true;
-
-   }
-
-	/***********************
-	* Copy Constructor
-	************************/
-	deque(const deque<T> &rhs)
-	{
-		assert(rhs.numCapacity >= 0);
-
-		clear();
-
-		if (numCapacity < rhs.size())
-		{
-			resize(rhs.size());
-		}
-
-		try
-		{
-			data = new T[rhs.numCapacity];
-		}
-		catch (typename std::bad_alloc)
-      {
-			throw "ERROR: Unable to allocate buffer";
-		}
-		numCapacity = rhs.numCapacity;
-		int tempFront= rhs.iFront;
-
-		for (int i = rhs.iBack; i < rhs.iFront; i++)
-		{
-			push(rhs.data[i % rhs.numCapacity]);
-		}
-	}
+	
+   deque();
+   deque(int amount);
+   deque(deque<T> & rhs);
 
    /********************************************
    * ASSIGNMENT OPERATOR
@@ -115,8 +62,8 @@ public:
    * The Below functions do the same thing from
    *different ends of the deque
    ************************************************/
-   void push_back(T& item);
-   void push_front(T& item);
+   void push_back(const T & item);
+   void push_front(const T & item);
    void pop_back();
    void pop_front();
 
@@ -149,10 +96,69 @@ public:
    T back();
    int iFrontNormalized();
    int iBackNormalized();
+   int iNormalize(int i);
 };
 
+/*************************
+* Default Constructor
+**************************/
 template<class T>
-void deque<T>::push_back(T & element)
+deque<T>::deque()
+{
+   iFront = 0;
+   iBack = 0;
+   numCapacity = 0;
+   isEmpty = true;
+   data = new T[numCapacity];
+}
+
+/*******************************
+* Non Default Constrctor
+********************************/
+template<class T>
+deque<T>::deque(int amount)
+{
+   iFront = 0;
+   iBack = 0;
+   numCapacity = amount;
+   data = new T[numCapacity];
+   isEmpty = true;
+}
+
+/***********************
+* Copy Constructor
+************************/
+template<class T>
+deque<T>::deque(deque<T>& rhs)
+{
+   assert(rhs.numCapacity >= 0);
+
+   clear();
+
+   if (capacity() < rhs.size())
+   {
+      resize(rhs.size());
+   }
+
+   try
+   {
+      data = new T[rhs.numCapacity];
+   }
+   catch (typename std::bad_alloc)
+   {
+      throw "ERROR: Unable to allocate buffer";
+   }
+   numCapacity = rhs.numCapacity;
+   int tempFront = rhs.iFront;
+
+   for (int i = rhs.iBack; i < rhs.iFront; i++)
+   {
+      push_back(rhs.data[i % rhs.numCapacity]);
+   }
+}
+
+template<class T>
+void deque<T>::push_back(const T & element)
 {
 	if (numCapacity == 0)
 	{
@@ -169,7 +175,7 @@ void deque<T>::push_back(T & element)
 }
 
 template<class T>
-void deque<T>::push_front(T & element)
+void deque<T>::push_front(const T & element)
 {
 	if (numCapacity == 0)
 	{
@@ -331,7 +337,7 @@ T deque<T>::back()
 template<class T>
 int deque<T>::iFrontNormalized()
 {
-   return iFront % numCapacity;
+   return iNormalize(iFront);
 }
 
 /**********************
@@ -342,6 +348,12 @@ template<class T>
 int deque<T>::iBackNormalized()
 {
    return (iBack - 1) % numCapacity;
+}
+
+template<class T>
+int deque<T>::iNormalize(int i)
+{
+   return 0;
 }
 
 } //end namespace custom
