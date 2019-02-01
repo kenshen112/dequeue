@@ -42,7 +42,7 @@ public:
 	*different ends of the deque
 	************************************************/
 	void pushBack(T& item);
-	void pushFrot(T& item);
+	void pushFront(T& item);
 	void popBack();
 	void popFront();
 
@@ -62,6 +62,9 @@ public:
 	****************/
 	bool empty();
 
+	void clear();
+
+
 	/************************
 	* Are we at the front?
 	***********************/
@@ -72,8 +75,110 @@ public:
 	************************/
 	T back();
 
-	T iFrontNormalized();
+	int iFrontNormalized();
 
-	T iBackNormalized();
+	int iBackNormalized();
 };
 
+template<class T>
+inline deque deque<T>::operator=(deque rhs)
+{
+	return deque();
+}
+
+template<class T>
+void deque<T>::pushBack(T & item)
+{
+}
+
+template<class T>
+void deque<T>::pushFront(T & item)
+{
+}
+
+template<class T>
+void deque<T>::popBack()
+{
+}
+
+template<class T>
+void deque<T>::popFront()
+{
+}
+
+template<class T>
+void deque<T>::resize(int numCapacity)
+{
+}
+
+/********************
+* Returns Size
+********************/
+template<class T>
+int deque<T>::size()
+{
+	return 0;
+}
+
+/********************
+* Returns Size
+********************/
+template<class T>
+int deque<T>::capacity()
+{
+	return 0;
+}
+
+/*****************
+Is it empty?
+****************/
+template<class T>
+bool deque<T>::empty()
+{
+	return false;
+}
+
+/**************************
+* Clears the entire deque
+**************************/
+template<class T>
+void deque<T>::clear()
+{
+}
+
+/************************
+* Are we at the front?
+***********************/
+template<class T>
+T deque<T>::front()
+{
+	
+}
+
+/************************
+* Are we at the back?
+***********************/
+template<class T>
+T deque<T>::back()
+{
+	
+}
+
+/*************************
+* Returns index Front
+*************************/
+template<class T>
+int deque<T>::iFrontNormalized()
+{
+	return 0;
+}
+
+/**********************
+* Returns index Back
+**********************/
+
+template<class T>
+int deque<T>::iBackNormalized()
+{
+	return 0;
+}
