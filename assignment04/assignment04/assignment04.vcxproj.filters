@@ -41,9 +41,6 @@
     <ClCompile Include="nowServing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="testNormalize.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="serviceRequest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

@@ -1,3 +1,1 @@
-﻿  assignment04.cpp
-testNormalize.obj : error LNK2005: _main already defined in assignment04.obj
-C:\Users\Kenyon B\source\repos\kenshen112\dequeue\assignment04\Debug\assignment04.exe : fatal error LNK1169: one or more multiply defined symbols found
+﻿  assignment04.vcxproj -> C:\Users\Kenyon B\source\repos\kenshen112\dequeue\assignment04\Debug\assignment04.exe
