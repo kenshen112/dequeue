@@ -75,7 +75,7 @@ public:
       clear();
       if (rhs.numCapacity == 0)
       {
-         clear()
+         clear();
          return *this;
       }
 
