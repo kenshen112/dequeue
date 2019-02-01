@@ -6,6 +6,8 @@ class deque
 private:
 	int iFront;
 	int iBack;
+	int numCapacity;
+	bool isEmpty;
 	T data;
 
 public:
@@ -14,7 +16,11 @@ public:
 	**************************/
 	deque()
 	{
-
+		iFront = 0;
+		iBack = 0;
+		numCapacity = 0;
+		isEmpty = true;
+		data = new T[numCapacity];
 	}
 
 	/*******************************
@@ -22,15 +28,43 @@ public:
 	********************************/	  
 	deque(int amount)
 	{
+		iFront = 0;
+		iBack = 0;
+		numCapacity = amount;
+		data = new T[numCapacity];
+		isEmpty = true;
 
 	}
 
 	/***********************
 	* Copy Constructor
 	************************/
-	deque(const deque rhs&)
+	deque(const deque<T> &rhs)
 	{
+		assert(rhs.numCapacity >= 0);
 
+		numPush = 0;
+		numPop = 0;
+
+		if (numCapacity < rhs.size())
+		{
+			resize(rhs.size());
+		}
+
+		try
+		{
+			data = new T[rhs.numCapacity];
+		}
+		catch (std::bad_alloc) {
+			throw "ERROR: Unable to allocate buffer";
+		}
+		numCapacity = rhs.numCapacity;
+		int tempPop = rhs.numPop;
+
+		for (int i = rhs.numPop; i < rhs.numPush; i++)
+		{
+			push(rhs.data[i % rhs.numCapacity]);
+		}
 	}
 
 	deque operator=(deque rhs);
@@ -89,21 +123,64 @@ inline deque deque<T>::operator=(deque rhs)
 template<class T>
 void deque<T>::pushBack(T & item)
 {
+	if (numCapacity == 0)
+	{
+		resize(1);
+	}
+	else if (numPush == numCapacity)
+	{
+
+		resize(numCapacity *= 2);
+	}
+	numPush++;
+	data[iBack] = element;
+
 }
 
 template<class T>
 void deque<T>::pushFront(T & item)
 {
+	if (numCapacity == 0)
+	{
+		resize(1);
+	}
+	else if (numPush == numCapacity)
+	{
+
+		resize(numCapacity *= 2);
+	}
+	numPush++;
+	data[iFront] = element;
+
+
 }
 
 template<class T>
 void deque<T>::popBack()
 {
+	if (numCapacity == 0)
+	{
+		throw "ERROR: unable to pop from the back of empty deque";
+	}
+
+	iBack--;
+
+	if (iBack < 0)
+	{
+		iBack = numCapacity - 1;
+	}
 }
 
 template<class T>
 void deque<T>::popFront()
 {
+	if (numCapacity == 0)
+	{
+		throw "ERROR: unable to pop from the front of empty deque";
+	}
+
+	iFront--;
+	iFront = (iFront + 1) % numCapacity;
 }
 
 template<class T>
@@ -126,7 +203,7 @@ int deque<T>::size()
 template<class T>
 int deque<T>::capacity()
 {
-	return 0;
+	return numCapacity;
 }
 
 /*****************
