@@ -72,6 +72,31 @@ public:
    *******************************************/
    deque<T> & operator=(deque<T>& rhs)
    {
+      clear();
+      if (rhs.numCapacity == 0)
+      {
+         clear()
+         return *this;
+      }
+
+      if (capacity() < rhs.size())
+      {
+         resize(rhs.size());
+      }
+      try
+      {
+         data = new T[rhs.numCapacity];
+      }
+      catch (std::bad_alloc)
+      {
+         throw "ERROR: Unable to allocate buffer";
+      }
+      numCapacity = rhs.numCapacity;
+      int tempiFront = rhs.iFront;
+      for (int i = rhs.iFront; i < rhs.iBack; i++)
+      {
+         pushBack(rhs.data[iNormalize(i)]); //What on earth is iNormalize?
+      }
       return *this;
    }
 
@@ -99,7 +124,6 @@ public:
    Is it empty?
    ****************/
    bool empty();
-
    void clear();
 
 
@@ -112,9 +136,7 @@ public:
    * Are we at the back?
    ************************/
    T back();
-
    int iFrontNormalized();
-
    int iBackNormalized();
 };
 
@@ -182,7 +204,7 @@ void deque<T>::popFront()
 }
 
 /********************************************
- * Queue : RESIZE
+ * deque : RESIZE
  * resizes the deque buffer
  *******************************************/
 template<class T>
@@ -262,9 +284,13 @@ void deque<T>::clear()
 template<class T>
 T deque<T>::front()
 {
-   if (empty())
+   if (empty() == true)
    {
-
+      throw "ERROR: attempting to access an element in an empty queue";
+   }
+   else
+   {
+      return data[iFrontNormalize()];
    }
 }
 
@@ -274,7 +300,14 @@ T deque<T>::front()
 template<class T>
 T deque<T>::back()
 {
-
+   if (empty() == true)
+   {
+      throw "ERROR: attempting to access an element in an empty queue";
+   }
+   else
+   {
+      return data[iBackNormalize()];
+   }
 }
 
 /*************************
@@ -283,7 +316,7 @@ T deque<T>::back()
 template<class T>
 int deque<T>::iFrontNormalized()
 {
-   return 0;
+   return iHead % numCapacity;
 }
 
 /**********************
@@ -293,7 +326,7 @@ int deque<T>::iFrontNormalized()
 template<class T>
 int deque<T>::iBackNormalized()
 {
-   return 0;
+   return (iBack - 1) % numCapacity;
 }
 
 } //end namespace custom
