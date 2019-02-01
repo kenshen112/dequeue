@@ -44,9 +44,6 @@
     <ClCompile Include="testNormalize.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="deque.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="serviceRequest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
