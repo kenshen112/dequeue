@@ -82,7 +82,7 @@ public:
    /********************************************
    * ASSIGNMENT OPERATOR
    *******************************************/
-   deque<T> & operator=(deque<T>& rhs)
+   deque<T> & operator=(deque<T> & rhs)
    {
       if (rhs.numCapacity == 0)
       {
