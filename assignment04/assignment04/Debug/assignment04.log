@@ -1,307 +1,283 @@
 ﻿  assignment04.cpp
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(295): error C2065: 'iFrontNormalize': undeclared identifier
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(295): error C3861: 'iFrontNormalize': identifier not found
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(295): note: 'iFrontNormalize': function declaration must be available as none of the arguments depend on a template parameter
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(311): error C2065: 'iBackNormalize': undeclared identifier
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(311): error C3861: 'iBackNormalize': identifier not found
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(311): note: 'iBackNormalize': function declaration must be available as none of the arguments depend on a template parameter
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(139): error C2953: 'custom::deque': class template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(4): note: see declaration of 'custom::deque'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(144): error C3861: 'numCapacity': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(146): error C2065: 'resize': undeclared identifier
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(146): error C3861: 'resize': identifier not found
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(146): note: 'resize': function declaration must be available as none of the arguments depend on a template parameter
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(148): error C3861: 'iBack': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(148): error C3861: 'numCapacity': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(151): error C3861: 'numCapacity': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(153): error C3861: 'iBack': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(154): error C3861: 'data': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(154): error C3861: 'iBack': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(161): error C3861: 'numCapacity': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(163): error C2065: 'resize': undeclared identifier
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(163): error C3861: 'resize': identifier not found
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(163): note: 'resize': function declaration must be available as none of the arguments depend on a template parameter
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(165): error C3861: 'iFront': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(165): error C3861: 'numCapacity': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(168): error C3861: 'numCapacity': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(171): error C3861: 'iFront': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(172): error C3861: 'data': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(172): error C3861: 'iFront': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(180): error C3861: 'numCapacity': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(185): error C3861: 'iBack': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(187): error C3861: 'iBack': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(189): error C3861: 'iBack': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(189): error C3861: 'numCapacity': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(196): error C3861: 'numCapacity': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(201): error C3861: 'iFront': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(202): error C3861: 'iFront': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(202): error C3861: 'numCapacity': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(224): error C3861: 'iFront': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(225): error C3861: 'data': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(228): error C3861: 'data': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(242): error C3861: 'iBack': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(242): error C3861: 'iFront': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(251): error C3861: 'numCapacity': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(260): error C3861: 'iBack': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(260): error C3861: 'iFront': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(276): error C3861: 'data': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(277): error C3861: 'data': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(278): error C3861: 'numCapacity': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(279): error C3861: 'iFront': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(280): error C3861: 'iBack': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(289): error C2672: 'custom::empty': no matching overloaded function found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(297): error C2783: 'bool custom::empty(void)': could not deduce template argument for 'T'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(258): note: see declaration of 'custom::empty'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(289): error C2783: 'bool custom::empty(void)': could not deduce template argument for 'T'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(295): error C3861: 'data': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(295): error C2065: 'iFrontNormalize': undeclared identifier
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(295): error C3861: 'iFrontNormalize': identifier not found
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(295): note: 'iFrontNormalize': function declaration must be available as none of the arguments depend on a template parameter
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(305): error C2672: 'custom::empty': no matching overloaded function found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(313): error C2783: 'bool custom::empty(void)': could not deduce template argument for 'T'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(258): note: see declaration of 'custom::empty'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(305): error C2783: 'bool custom::empty(void)': could not deduce template argument for 'T'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(311): error C3861: 'data': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(311): error C2065: 'iBackNormalize': undeclared identifier
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(311): error C3861: 'iBackNormalize': identifier not found
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(311): note: 'iBackNormalize': function declaration must be available as none of the arguments depend on a template parameter
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(321): error C3861: 'iFront': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(321): error C3861: 'numCapacity': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(331): error C3861: 'iBack': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(331): error C3861: 'numCapacity': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(139): error C2953: 'custom::deque': class template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(4): note: see declaration of 'custom::deque'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(156): error C2995: 'void custom::pushBack(T &)': function template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(142): note: see declaration of 'custom::pushBack'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(175): error C2995: 'void custom::pushFront(T &)': function template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(159): note: see declaration of 'custom::pushFront'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(191): error C2995: 'void custom::popBack(void)': function template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(178): note: see declaration of 'custom::popBack'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(203): error C2995: 'void custom::popFront(void)': function template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(194): note: see declaration of 'custom::popFront'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(234): error C2995: 'void custom::resize(int)': function template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(210): note: see declaration of 'custom::resize'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(243): error C2995: 'int custom::size(void)': function template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(240): note: see declaration of 'custom::size'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(252): error C2995: 'int custom::capacity(void)': function template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(249): note: see declaration of 'custom::capacity'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(268): error C2995: 'bool custom::empty(void)': function template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(258): note: see declaration of 'custom::empty'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(281): error C2995: 'void custom::clear(void)': function template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(274): note: see declaration of 'custom::clear'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(297): error C2995: 'T custom::front(void)': function template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(287): note: see declaration of 'custom::front'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(313): error C2995: 'T custom::back(void)': function template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(303): note: see declaration of 'custom::back'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(322): error C2995: 'int custom::iFrontNormalized(void)': function template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(319): note: see declaration of 'custom::iFrontNormalized'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(332): error C2995: 'int custom::iBackNormalized(void)': function template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(329): note: see declaration of 'custom::iBackNormalized'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(100): error C2512: 'custom::deque': no appropriate default constructor available
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(4): note: see declaration of 'custom::deque'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(101): error C2662: 'int custom::deque<T>::size(void)': cannot convert 'this' pointer from 'custom::deque' to 'custom::deque<T> &'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(101): note: Reason: cannot convert from 'custom::deque' to 'custom::deque<T>'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(101): note: Conversion requires a second user-defined-conversion operator or constructor
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(102): error C2662: 'bool custom::deque<T>::empty(void)': cannot convert 'this' pointer from 'custom::deque' to 'custom::deque<T> &'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(102): note: Reason: cannot convert from 'custom::deque' to 'custom::deque<T>'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(102): note: Conversion requires a second user-defined-conversion operator or constructor
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(106): error C2514: 'custom::deque': class has no constructors
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(4): note: see declaration of 'custom::deque'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(107): error C2662: 'int custom::deque<T>::size(void)': cannot convert 'this' pointer from 'custom::deque' to 'custom::deque<T> &'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(107): note: Reason: cannot convert from 'custom::deque' to 'custom::deque<T>'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(107): note: Conversion requires a second user-defined-conversion operator or constructor
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(108): error C2662: 'bool custom::deque<T>::empty(void)': cannot convert 'this' pointer from 'custom::deque' to 'custom::deque<T> &'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(108): note: Reason: cannot convert from 'custom::deque' to 'custom::deque<T>'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(108): note: Conversion requires a second user-defined-conversion operator or constructor
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(113): error C2514: 'custom::deque': class has no constructors
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(4): note: see declaration of 'custom::deque'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(114): error C2662: 'int custom::deque<T>::size(void)': cannot convert 'this' pointer from 'custom::deque' to 'custom::deque<T> &'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(114): note: Reason: cannot convert from 'custom::deque' to 'custom::deque<T>'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(114): note: Conversion requires a second user-defined-conversion operator or constructor
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(115): error C2662: 'bool custom::deque<T>::empty(void)': cannot convert 'this' pointer from 'custom::deque' to 'custom::deque<T> &'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(115): note: Reason: cannot convert from 'custom::deque' to 'custom::deque<T>'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(115): note: Conversion requires a second user-defined-conversion operator or constructor
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(120): error C2514: 'custom::deque': class has no constructors
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(4): note: see declaration of 'custom::deque'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(121): error C2678: binary '=': no operator found which takes a left-hand operand of type 'custom::deque' (or there is no acceptable conversion)
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(72): note: could be 'custom::deque<T> &custom::deque<T>::operator =(custom::deque<T> &)'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(121): note: while trying to match the argument list '(custom::deque, custom::deque)'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(121): error C2582: 'operator =' function is unavailable in 'custom::deque'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(122): error C2662: 'void custom::deque<T>::clear(void)': cannot convert 'this' pointer from 'custom::deque' to 'custom::deque<T> &'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(122): note: Reason: cannot convert from 'custom::deque' to 'custom::deque<T>'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(122): note: Conversion requires a second user-defined-conversion operator or constructor
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(123): error C2039: 'push_back': is not a member of 'custom::deque'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(4): note: see declaration of 'custom::deque'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(125): error C2662: 'int custom::deque<T>::size(void)': cannot convert 'this' pointer from 'custom::deque' to 'custom::deque<T> &'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(125): note: Reason: cannot convert from 'custom::deque' to 'custom::deque<T>'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(125): note: Conversion requires a second user-defined-conversion operator or constructor
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(126): error C2662: 'bool custom::deque<T>::empty(void)': cannot convert 'this' pointer from 'custom::deque' to 'custom::deque<T> &'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(126): note: Reason: cannot convert from 'custom::deque' to 'custom::deque<T>'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(126): note: Conversion requires a second user-defined-conversion operator or constructor
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(149): error C2039: 'pop_front': is not a member of 'custom::deque'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(4): note: see declaration of 'custom::deque'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(169): error C2512: 'custom::deque': no appropriate default constructor available
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(4): note: see declaration of 'custom::deque'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(176): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'custom::deque' (or there is no acceptable conversion)
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(508): note: could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(480): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(460): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(440): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(420): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(400): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(380): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(360): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(340): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(320): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(295): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(275): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(241): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(221): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(215): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(209): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(204): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(702): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(749): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(787): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(834): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(960): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(967): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(974): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(981): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(1047): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(176): note: while trying to match the argument list '(std::basic_ostream<char,std::char_traits<char>>, custom::deque)'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(179): error C2039: 'push_back': is not a member of 'custom::deque'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(4): note: see declaration of 'custom::deque'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(184): error C2662: 'int custom::deque<T>::size(void)': cannot convert 'this' pointer from 'custom::deque' to 'custom::deque<T> &'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(184): note: Reason: cannot convert from 'custom::deque' to 'custom::deque<T>'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(184): note: Conversion requires a second user-defined-conversion operator or constructor
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(185): error C2662: 'bool custom::deque<T>::empty(void)': cannot convert 'this' pointer from 'custom::deque' to 'custom::deque<T> &'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(185): note: Reason: cannot convert from 'custom::deque' to 'custom::deque<T>'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(185): note: Conversion requires a second user-defined-conversion operator or constructor
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(188): error C2514: 'custom::deque': class has no constructors
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(4): note: see declaration of 'custom::deque'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(189): error C2678: binary '=': no operator found which takes a left-hand operand of type 'custom::deque' (or there is no acceptable conversion)
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(72): note: could be 'custom::deque<T> &custom::deque<T>::operator =(custom::deque<T> &)'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(189): note: while trying to match the argument list '(custom::deque, custom::deque)'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(189): error C2582: 'operator =' function is unavailable in 'custom::deque'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(190): error C2514: 'custom::deque': class has no constructors
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(4): note: see declaration of 'custom::deque'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(193): error C2662: 'void custom::deque<T>::clear(void)': cannot convert 'this' pointer from 'custom::deque' to 'custom::deque<T> &'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(193): note: Reason: cannot convert from 'custom::deque' to 'custom::deque<T>'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(193): note: Conversion requires a second user-defined-conversion operator or constructor
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(196): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'custom::deque' (or there is no acceptable conversion)
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(196): fatal error C1003: error count exceeds 100; stopping compilation
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(46): error C3861: 'numPush': identifier not found
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(141): note: see reference to class template instantiation 'custom::deque<T>' being compiled
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(47): error C3861: 'numPop': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(150): error C3861: 'numPush': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(155): error C3861: 'numPush': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(156): error C3861: 'element': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(167): error C3861: 'numPush': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(172): error C3861: 'numPush': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(173): error C3861: 'element': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(214): error C3861: 'capacityNew': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(220): error C3861: 'capacityNew': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(222): error C3861: 'numPop': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(222): error C3861: 'numPush': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(227): error C3861: 'capacityNew': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(258): error C3861: 'numPush': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(258): error C3861: 'numPop': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(293): error C2065: 'iFrontNormalize': undeclared identifier
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(293): error C3861: 'iFrontNormalize': identifier not found
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(293): note: 'iFrontNormalize': function declaration must be available as none of the arguments depend on a template parameter
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(309): error C2065: 'iBackNormalize': undeclared identifier
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(309): error C3861: 'iBackNormalize': identifier not found
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(309): note: 'iBackNormalize': function declaration must be available as none of the arguments depend on a template parameter
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(319): error C3861: 'iHead': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(141): error C2953: 'custom::deque': class template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(4): note: see declaration of 'custom::deque'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(146): error C3861: 'numCapacity': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(148): error C2065: 'resize': undeclared identifier
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(148): error C3861: 'resize': identifier not found
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(148): note: 'resize': function declaration must be available as none of the arguments depend on a template parameter
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(150): error C3861: 'numPush': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(150): error C3861: 'numCapacity': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(153): error C3861: 'numCapacity': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(155): error C3861: 'numPush': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(156): error C3861: 'data': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(156): error C3861: 'iBack': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(156): error C3861: 'element': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(163): error C3861: 'numCapacity': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(165): error C2065: 'resize': undeclared identifier
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(165): error C3861: 'resize': identifier not found
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(165): note: 'resize': function declaration must be available as none of the arguments depend on a template parameter
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(167): error C3861: 'numPush': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(167): error C3861: 'numCapacity': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(170): error C3861: 'numCapacity': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(172): error C3861: 'numPush': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(173): error C3861: 'data': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(173): error C3861: 'iFront': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(173): error C3861: 'element': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(181): error C3861: 'numCapacity': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(186): error C3861: 'iBack': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(188): error C3861: 'iBack': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(190): error C3861: 'iBack': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(190): error C3861: 'numCapacity': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(197): error C3861: 'numCapacity': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(202): error C3861: 'iFront': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(203): error C3861: 'iFront': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(203): error C3861: 'numCapacity': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(214): error C3861: 'capacityNew': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(220): error C3861: 'capacityNew': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(222): error C3861: 'numPop': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(222): error C3861: 'numPush': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(223): error C3861: 'data': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(226): error C3861: 'data': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(227): error C3861: 'capacityNew': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(240): error C3861: 'iBack': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(240): error C3861: 'iFront': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(249): error C3861: 'numCapacity': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(258): error C3861: 'numPush': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(258): error C3861: 'numPop': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(274): error C3861: 'data': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(275): error C3861: 'data': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(276): error C3861: 'numCapacity': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(277): error C3861: 'iFront': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(278): error C3861: 'iBack': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(287): error C2672: 'custom::empty': no matching overloaded function found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(295): error C2783: 'bool custom::empty(void)': could not deduce template argument for 'T'
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(256): note: see declaration of 'custom::empty'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(287): error C2783: 'bool custom::empty(void)': could not deduce template argument for 'T'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(293): error C3861: 'data': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(293): error C2065: 'iFrontNormalize': undeclared identifier
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(293): error C3861: 'iFrontNormalize': identifier not found
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(293): note: 'iFrontNormalize': function declaration must be available as none of the arguments depend on a template parameter
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(303): error C2672: 'custom::empty': no matching overloaded function found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(311): error C2783: 'bool custom::empty(void)': could not deduce template argument for 'T'
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(256): note: see declaration of 'custom::empty'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(303): error C2783: 'bool custom::empty(void)': could not deduce template argument for 'T'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(309): error C3861: 'data': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(309): error C2065: 'iBackNormalize': undeclared identifier
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(309): error C3861: 'iBackNormalize': identifier not found
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(309): note: 'iBackNormalize': function declaration must be available as none of the arguments depend on a template parameter
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(319): error C3861: 'iHead': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(319): error C3861: 'numCapacity': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(329): error C3861: 'iBack': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(329): error C3861: 'numCapacity': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(141): error C2953: 'custom::deque': class template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(4): note: see declaration of 'custom::deque'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(158): error C2995: 'void custom::pushBack(T &)': function template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(144): note: see declaration of 'custom::pushBack'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(176): error C2995: 'void custom::pushFront(T &)': function template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(161): note: see declaration of 'custom::pushFront'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(192): error C2995: 'void custom::popBack(void)': function template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(179): note: see declaration of 'custom::popBack'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(204): error C2995: 'void custom::popFront(void)': function template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(195): note: see declaration of 'custom::popFront'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(232): error C2995: 'void custom::resize(int)': function template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(211): note: see declaration of 'custom::resize'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(241): error C2995: 'int custom::size(void)': function template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(238): note: see declaration of 'custom::size'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(250): error C2995: 'int custom::capacity(void)': function template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(247): note: see declaration of 'custom::capacity'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(266): error C2995: 'bool custom::empty(void)': function template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(256): note: see declaration of 'custom::empty'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(279): error C2995: 'void custom::clear(void)': function template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(272): note: see declaration of 'custom::clear'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(295): error C2995: 'T custom::front(void)': function template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(285): note: see declaration of 'custom::front'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(311): error C2995: 'T custom::back(void)': function template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(301): note: see declaration of 'custom::back'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(320): error C2995: 'int custom::iFrontNormalized(void)': function template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(317): note: see declaration of 'custom::iFrontNormalized'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(330): error C2995: 'int custom::iBackNormalized(void)': function template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(327): note: see declaration of 'custom::iBackNormalized'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(100): error C2512: 'custom::deque': no appropriate default constructor available
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(4): note: see declaration of 'custom::deque'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(101): error C2662: 'int custom::deque<T>::size(void)': cannot convert 'this' pointer from 'custom::deque' to 'custom::deque<T> &'
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(101): note: Reason: cannot convert from 'custom::deque' to 'custom::deque<T>'
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(101): note: Conversion requires a second user-defined-conversion operator or constructor
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(102): error C2662: 'bool custom::deque<T>::empty(void)': cannot convert 'this' pointer from 'custom::deque' to 'custom::deque<T> &'
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(102): note: Reason: cannot convert from 'custom::deque' to 'custom::deque<T>'
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(102): note: Conversion requires a second user-defined-conversion operator or constructor
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(106): error C2514: 'custom::deque': class has no constructors
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(4): note: see declaration of 'custom::deque'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(107): error C2662: 'int custom::deque<T>::size(void)': cannot convert 'this' pointer from 'custom::deque' to 'custom::deque<T> &'
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(107): note: Reason: cannot convert from 'custom::deque' to 'custom::deque<T>'
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(107): note: Conversion requires a second user-defined-conversion operator or constructor
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(108): error C2662: 'bool custom::deque<T>::empty(void)': cannot convert 'this' pointer from 'custom::deque' to 'custom::deque<T> &'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(108): fatal error C1003: error count exceeds 100; stopping compilation
   nowServing.cpp
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(295): error C2065: 'iFrontNormalize': undeclared identifier
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(295): error C3861: 'iFrontNormalize': identifier not found
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(295): note: 'iFrontNormalize': function declaration must be available as none of the arguments depend on a template parameter
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(311): error C2065: 'iBackNormalize': undeclared identifier
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(311): error C3861: 'iBackNormalize': identifier not found
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(311): note: 'iBackNormalize': function declaration must be available as none of the arguments depend on a template parameter
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(139): error C2953: 'custom::deque': class template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(4): note: see declaration of 'custom::deque'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(144): error C3861: 'numCapacity': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(146): error C2065: 'resize': undeclared identifier
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(146): error C3861: 'resize': identifier not found
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(146): note: 'resize': function declaration must be available as none of the arguments depend on a template parameter
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(148): error C3861: 'iBack': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(148): error C3861: 'numCapacity': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(151): error C3861: 'numCapacity': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(153): error C3861: 'iBack': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(154): error C3861: 'data': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(154): error C3861: 'iBack': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(161): error C3861: 'numCapacity': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(163): error C2065: 'resize': undeclared identifier
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(163): error C3861: 'resize': identifier not found
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(163): note: 'resize': function declaration must be available as none of the arguments depend on a template parameter
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(165): error C3861: 'iFront': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(165): error C3861: 'numCapacity': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(168): error C3861: 'numCapacity': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(171): error C3861: 'iFront': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(172): error C3861: 'data': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(172): error C3861: 'iFront': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(180): error C3861: 'numCapacity': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(185): error C3861: 'iBack': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(187): error C3861: 'iBack': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(189): error C3861: 'iBack': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(189): error C3861: 'numCapacity': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(196): error C3861: 'numCapacity': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(201): error C3861: 'iFront': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(202): error C3861: 'iFront': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(202): error C3861: 'numCapacity': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(224): error C3861: 'iFront': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(225): error C3861: 'data': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(228): error C3861: 'data': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(242): error C3861: 'iBack': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(242): error C3861: 'iFront': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(251): error C3861: 'numCapacity': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(260): error C3861: 'iBack': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(260): error C3861: 'iFront': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(276): error C3861: 'data': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(277): error C3861: 'data': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(278): error C3861: 'numCapacity': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(279): error C3861: 'iFront': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(280): error C3861: 'iBack': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(289): error C2672: 'custom::empty': no matching overloaded function found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(297): error C2783: 'bool custom::empty(void)': could not deduce template argument for 'T'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(258): note: see declaration of 'custom::empty'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(289): error C2783: 'bool custom::empty(void)': could not deduce template argument for 'T'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(295): error C3861: 'data': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(295): error C2065: 'iFrontNormalize': undeclared identifier
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(295): error C3861: 'iFrontNormalize': identifier not found
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(295): note: 'iFrontNormalize': function declaration must be available as none of the arguments depend on a template parameter
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(305): error C2672: 'custom::empty': no matching overloaded function found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(313): error C2783: 'bool custom::empty(void)': could not deduce template argument for 'T'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(258): note: see declaration of 'custom::empty'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(305): error C2783: 'bool custom::empty(void)': could not deduce template argument for 'T'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(311): error C3861: 'data': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(311): error C2065: 'iBackNormalize': undeclared identifier
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(311): error C3861: 'iBackNormalize': identifier not found
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(311): note: 'iBackNormalize': function declaration must be available as none of the arguments depend on a template parameter
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(321): error C3861: 'iFront': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(321): error C3861: 'numCapacity': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(331): error C3861: 'iBack': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(331): error C3861: 'numCapacity': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(139): error C2953: 'custom::deque': class template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(4): note: see declaration of 'custom::deque'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(156): error C2995: 'void custom::pushBack(T &)': function template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(142): note: see declaration of 'custom::pushBack'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(175): error C2995: 'void custom::pushFront(T &)': function template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(159): note: see declaration of 'custom::pushFront'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(191): error C2995: 'void custom::popBack(void)': function template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(178): note: see declaration of 'custom::popBack'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(203): error C2995: 'void custom::popFront(void)': function template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(194): note: see declaration of 'custom::popFront'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(234): error C2995: 'void custom::resize(int)': function template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(210): note: see declaration of 'custom::resize'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(243): error C2995: 'int custom::size(void)': function template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(240): note: see declaration of 'custom::size'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(252): error C2995: 'int custom::capacity(void)': function template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(249): note: see declaration of 'custom::capacity'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(268): error C2995: 'bool custom::empty(void)': function template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(258): note: see declaration of 'custom::empty'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(281): error C2995: 'void custom::clear(void)': function template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(274): note: see declaration of 'custom::clear'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(297): error C2995: 'T custom::front(void)': function template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(287): note: see declaration of 'custom::front'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(313): error C2995: 'T custom::back(void)': function template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(303): note: see declaration of 'custom::back'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(322): error C2995: 'int custom::iFrontNormalized(void)': function template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(319): note: see declaration of 'custom::iFrontNormalized'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(332): error C2995: 'int custom::iBackNormalized(void)': function template has already been defined
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(329): note: see declaration of 'custom::iBackNormalized'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\nowserving.cpp(39): error C2664: 'void ServiceRequest::setRequest(custom::deque)': cannot convert argument 1 from 'requestData' to 'custom::deque'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\nowserving.cpp(39): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(46): error C3861: 'numPush': identifier not found
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(141): note: see reference to class template instantiation 'custom::deque<T>' being compiled
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(47): error C3861: 'numPop': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(150): error C3861: 'numPush': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(155): error C3861: 'numPush': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(156): error C3861: 'element': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(167): error C3861: 'numPush': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(172): error C3861: 'numPush': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(173): error C3861: 'element': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(214): error C3861: 'capacityNew': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(220): error C3861: 'capacityNew': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(222): error C3861: 'numPop': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(222): error C3861: 'numPush': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(227): error C3861: 'capacityNew': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(258): error C3861: 'numPush': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(258): error C3861: 'numPop': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(293): error C2065: 'iFrontNormalize': undeclared identifier
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(293): error C3861: 'iFrontNormalize': identifier not found
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(293): note: 'iFrontNormalize': function declaration must be available as none of the arguments depend on a template parameter
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(309): error C2065: 'iBackNormalize': undeclared identifier
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(309): error C3861: 'iBackNormalize': identifier not found
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(309): note: 'iBackNormalize': function declaration must be available as none of the arguments depend on a template parameter
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(319): error C3861: 'iHead': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(141): error C2953: 'custom::deque': class template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(4): note: see declaration of 'custom::deque'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(146): error C3861: 'numCapacity': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(148): error C2065: 'resize': undeclared identifier
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(148): error C3861: 'resize': identifier not found
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(148): note: 'resize': function declaration must be available as none of the arguments depend on a template parameter
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(150): error C3861: 'numPush': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(150): error C3861: 'numCapacity': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(153): error C3861: 'numCapacity': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(155): error C3861: 'numPush': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(156): error C3861: 'data': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(156): error C3861: 'iBack': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(156): error C3861: 'element': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(163): error C3861: 'numCapacity': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(165): error C2065: 'resize': undeclared identifier
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(165): error C3861: 'resize': identifier not found
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(165): note: 'resize': function declaration must be available as none of the arguments depend on a template parameter
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(167): error C3861: 'numPush': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(167): error C3861: 'numCapacity': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(170): error C3861: 'numCapacity': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(172): error C3861: 'numPush': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(173): error C3861: 'data': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(173): error C3861: 'iFront': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(173): error C3861: 'element': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(181): error C3861: 'numCapacity': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(186): error C3861: 'iBack': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(188): error C3861: 'iBack': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(190): error C3861: 'iBack': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(190): error C3861: 'numCapacity': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(197): error C3861: 'numCapacity': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(202): error C3861: 'iFront': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(203): error C3861: 'iFront': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(203): error C3861: 'numCapacity': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(214): error C3861: 'capacityNew': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(220): error C3861: 'capacityNew': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(222): error C3861: 'numPop': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(222): error C3861: 'numPush': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(223): error C3861: 'data': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(226): error C3861: 'data': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(227): error C3861: 'capacityNew': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(240): error C3861: 'iBack': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(240): error C3861: 'iFront': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(249): error C3861: 'numCapacity': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(258): error C3861: 'numPush': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(258): error C3861: 'numPop': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(274): error C3861: 'data': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(275): error C3861: 'data': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(276): error C3861: 'numCapacity': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(277): error C3861: 'iFront': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(278): error C3861: 'iBack': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(287): error C2672: 'custom::empty': no matching overloaded function found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(295): error C2783: 'bool custom::empty(void)': could not deduce template argument for 'T'
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(256): note: see declaration of 'custom::empty'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(287): error C2783: 'bool custom::empty(void)': could not deduce template argument for 'T'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(293): error C3861: 'data': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(293): error C2065: 'iFrontNormalize': undeclared identifier
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(293): error C3861: 'iFrontNormalize': identifier not found
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(293): note: 'iFrontNormalize': function declaration must be available as none of the arguments depend on a template parameter
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(303): error C2672: 'custom::empty': no matching overloaded function found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(311): error C2783: 'bool custom::empty(void)': could not deduce template argument for 'T'
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(256): note: see declaration of 'custom::empty'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(303): error C2783: 'bool custom::empty(void)': could not deduce template argument for 'T'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(309): error C3861: 'data': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(309): error C2065: 'iBackNormalize': undeclared identifier
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(309): error C3861: 'iBackNormalize': identifier not found
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(309): note: 'iBackNormalize': function declaration must be available as none of the arguments depend on a template parameter
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(319): error C3861: 'iHead': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(319): error C3861: 'numCapacity': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(329): error C3861: 'iBack': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(329): error C3861: 'numCapacity': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(141): error C2953: 'custom::deque': class template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(4): note: see declaration of 'custom::deque'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(158): error C2995: 'void custom::pushBack(T &)': function template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(144): note: see declaration of 'custom::pushBack'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(176): error C2995: 'void custom::pushFront(T &)': function template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(161): note: see declaration of 'custom::pushFront'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(192): error C2995: 'void custom::popBack(void)': function template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(179): note: see declaration of 'custom::popBack'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(204): error C2995: 'void custom::popFront(void)': function template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(195): note: see declaration of 'custom::popFront'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(232): error C2995: 'void custom::resize(int)': function template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(211): note: see declaration of 'custom::resize'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(241): error C2995: 'int custom::size(void)': function template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(238): note: see declaration of 'custom::size'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(250): error C2995: 'int custom::capacity(void)': function template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(247): note: see declaration of 'custom::capacity'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(266): error C2995: 'bool custom::empty(void)': function template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(256): note: see declaration of 'custom::empty'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(279): error C2995: 'void custom::clear(void)': function template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(272): note: see declaration of 'custom::clear'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(295): error C2995: 'T custom::front(void)': function template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(285): note: see declaration of 'custom::front'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(311): error C2995: 'T custom::back(void)': function template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(301): note: see declaration of 'custom::back'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(320): error C2995: 'int custom::iFrontNormalized(void)': function template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(317): note: see declaration of 'custom::iFrontNormalized'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(330): error C2995: 'int custom::iBackNormalized(void)': function template has already been defined
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(327): note: see declaration of 'custom::iBackNormalized'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\nowserving.cpp(39): error C2664: 'void ServiceRequest::setRequest(custom::deque)': cannot convert argument 1 from 'requestData' to 'custom::deque'
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\nowserving.cpp(39): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
   serviceRequest.cpp
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(57): error C7510: 'bad_alloc': use of dependent type name must be prefixed with 'typename'
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(139): note: see reference to class template instantiation 'custom::deque<T>' being compiled
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(88): error C7510: 'bad_alloc': use of dependent type name must be prefixed with 'typename'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(231): error C7510: 'bad_alloc': use of dependent type name must be prefixed with 'typename'
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(276): error C3861: 'NULL': identifier not found
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(295): error C2065: 'iFrontNormalize': undeclared identifier
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(295): error C3861: 'iFrontNormalize': identifier not found
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(295): note: 'iFrontNormalize': function declaration must be available as none of the arguments depend on a template parameter
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(311): error C2065: 'iBackNormalize': undeclared identifier
-c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(311): error C3861: 'iBackNormalize': identifier not found
-  c:\users\final\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(311): note: 'iBackNormalize': function declaration must be available as none of the arguments depend on a template parameter
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(58): error C7510: 'bad_alloc': use of dependent type name must be prefixed with 'typename'
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(141): note: see reference to class template instantiation 'custom::deque<T>' being compiled
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(90): error C7510: 'bad_alloc': use of dependent type name must be prefixed with 'typename'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(150): error C3861: 'numPush': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(155): error C3861: 'numPush': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(156): error C3861: 'element': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(167): error C3861: 'numPush': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(172): error C3861: 'numPush': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(173): error C3861: 'element': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(229): error C7510: 'bad_alloc': use of dependent type name must be prefixed with 'typename'
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(258): error C3861: 'numPush': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(258): error C3861: 'numPop': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(274): error C3861: 'NULL': identifier not found
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(293): error C2065: 'iFrontNormalize': undeclared identifier
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(293): error C3861: 'iFrontNormalize': identifier not found
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(293): note: 'iFrontNormalize': function declaration must be available as none of the arguments depend on a template parameter
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(309): error C2065: 'iBackNormalize': undeclared identifier
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(309): error C3861: 'iBackNormalize': identifier not found
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(309): note: 'iBackNormalize': function declaration must be available as none of the arguments depend on a template parameter
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(319): error C3861: 'iHead': identifier not found
   Generating Code...
