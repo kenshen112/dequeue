@@ -37,6 +37,7 @@ struct requestData
 class ServiceRequest
 {
 private:
+
    deque <requestData> request;     //deque object
 
 public:
@@ -45,7 +46,9 @@ public:
 
    //prototype functions
    void getRequest();
-   void setRequest(deque request);
+
+   void setRequest(requestData rData);
+
    void removeRequest();
    int incrementTime(int time);
    void display();

@@ -31,7 +31,7 @@ void nowServing()
 
    // your code here
    ServiceRequest request;
-   int time;
+   int time = 0;
    requestData rData;
 
    //Example function calls for service request. We can move them later.

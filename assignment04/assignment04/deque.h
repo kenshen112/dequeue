@@ -1,3 +1,15 @@
+/***********************************************************************
+* Header:
+*    DEQUE
+* Summary:
+*    A custom DEQUE class
+* Author
+*    Kenyon Bunker and Tim O'Barr
+************************************************************************/
+#ifndef DEQUE_H
+#define DEQUE_H
+#include <assert.h>
+
 namespace custom
 {
 template <class T>
@@ -54,7 +66,8 @@ public:
 		{
 			data = new T[rhs.numCapacity];
 		}
-		catch (std::bad_alloc) {
+		catch (typename std::bad_alloc)
+      {
 			throw "ERROR: Unable to allocate buffer";
 		}
 		numCapacity = rhs.numCapacity;
@@ -85,7 +98,7 @@ public:
       {
          data = new T[rhs.numCapacity];
       }
-      catch (std::bad_alloc)
+      catch (typename std::bad_alloc)
       {
          throw "ERROR: Unable to allocate buffer";
       }
@@ -93,7 +106,7 @@ public:
       int tempiFront = rhs.iFront;
       for (int i = rhs.iFront; i < rhs.iBack; i++)
       {
-         pushBack(rhs.data[iNormalize(i)]); //What on earth is iNormalize?
+         push_back(rhs.data[iNormalize(i)]); //What on earth is iNormalize?
       }
       return *this;
    }
@@ -102,10 +115,10 @@ public:
    * The Below functions do the same thing from
    *different ends of the deque
    ************************************************/
-   void pushBack(T& item);
-   void pushFront(T& item);
-   void popBack();
-   void popFront();
+   void push_back(T& item);
+   void push_front(T& item);
+   void pop_back();
+   void pop_front();
 
    /**************************
    * resizes the deque
@@ -139,7 +152,7 @@ public:
 };
 
 template<class T>
-void deque<T>::pushBack(T & element)
+void deque<T>::push_back(T & element)
 {
 	if (numCapacity == 0)
 	{
@@ -156,7 +169,7 @@ void deque<T>::pushBack(T & element)
 }
 
 template<class T>
-void deque<T>::pushFront(T & element)
+void deque<T>::push_front(T & element)
 {
 	if (numCapacity == 0)
 	{
@@ -175,7 +188,7 @@ void deque<T>::pushFront(T & element)
 }
 
 template<class T>
-void deque<T>::popBack()
+void deque<T>::pop_back()
 {
 	if (numCapacity == 0)
 	{
@@ -191,7 +204,7 @@ void deque<T>::popBack()
 }
 
 template<class T>
-void deque<T>::popFront()
+void deque<T>::pop_front()
 {
 	if (numCapacity == 0)
 	{
@@ -228,7 +241,7 @@ void deque<T>::resize(int numCapacity)
       data = dataNew;
       numCapacity = capacityNew;
    }
-   catch (std::bad_alloc) {
+   catch (typename std::bad_alloc) {
       throw "ERROR: Unable to allocate new buffer for deque";
    }
 }
@@ -292,7 +305,7 @@ T deque<T>::front()
    }
    else
    {
-      return data[iFrontNormalize()];
+      return data[iFrontNormalized()];
    }
 }
 
@@ -308,7 +321,7 @@ T deque<T>::back()
    }
    else
    {
-      return data[iBackNormalize()];
+      return data[iBackNormalized()];
    }
 }
 
@@ -332,3 +345,4 @@ int deque<T>::iBackNormalized()
 }
 
 } //end namespace custom
+#endif /* DEQUE_H */
