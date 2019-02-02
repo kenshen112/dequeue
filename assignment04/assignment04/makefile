@@ -28,5 +28,5 @@ assignment04.o: deque.h assignment04.cpp
 nowServing.o: nowServing.h nowServing.cpp deque.h
 	g++ -c nowServing.cpp -std=c++11
 	
-serviceRequest.o: serviceRequest.h serviceRequest.cpp nowServing.h
+serviceRequest.o: ServiceRequest.h serviceRequest.cpp nowServing.h
 	g++ -c serviceRequest.cpp -std=c++11
