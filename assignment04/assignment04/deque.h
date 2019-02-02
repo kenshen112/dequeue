@@ -33,11 +33,9 @@ public:
    *******************************************/
    deque<T> & operator=(deque<T> & rhs)
    {
-
-     iBack = -1;
-     iFront = 0;
-     
-     if (rhs.numCapacity == 0)
+      iBack = -1;
+      iFront = 0;
+      if (rhs.numCapacity == 0)
       {
 		  clear();
          return *this;
@@ -146,7 +144,6 @@ deque<T>::deque(deque<T>& rhs)
        clear();
      }        
    
-
    if (capacity() < rhs.size())
    {
       resize(rhs.size());
@@ -320,6 +317,8 @@ void deque<T>::clear()
 template<class T>
 T deque<T>::front()
 {
+   iBack = -1;
+   iFront = 0;
    if (empty() == true)
    {
       throw "ERROR: attempting to access an element in an empty queue";
