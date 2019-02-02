@@ -40,7 +40,7 @@ void nowServing()
    std::string inputArr[4];  //array for input tokens
 
    std::cout << "<" << numRequest << ">";
-
+   std::cin.ignore();
    std::getline(std::cin, data);
 
    std::istringstream ss(data);
