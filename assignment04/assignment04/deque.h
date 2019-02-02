@@ -33,7 +33,11 @@ public:
    *******************************************/
    deque<T> & operator=(deque<T> & rhs)
    {
-      if (rhs.numCapacity == 0)
+
+     iBack = -1;
+     iFront = 0;
+     
+     if (rhs.numCapacity == 0)
       {
 		  clear();
          return *this;
@@ -134,6 +138,14 @@ template<class T>
 deque<T>::deque(deque<T>& rhs)
 {
    assert(rhs.numCapacity >= 0);
+   iBack = -1;
+   iFront = 0;
+   
+   if (rhs.numCapacity == 0)
+     {
+       clear();
+     }        
+   
 
    if (capacity() < rhs.size())
    {
