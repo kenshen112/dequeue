@@ -139,7 +139,7 @@ deque<T>::deque(deque<T>& rhs)
    iFront = 0;
    //clear();
 
-   if (capacity() <= rhs.size())
+   if (capacity() == rhs.size())
    {
       resize(rhs.size());
    }
@@ -172,7 +172,7 @@ void deque<T>::push_back(const T & element)
 	{
 		resize(1);
 	}
-	else if (size() <= capacity())
+	else if (size() == capacity())
 	{
 
 		resize(numCapacity *= 2);
@@ -194,7 +194,7 @@ void deque<T>::push_front(const T & element)
 	{
 		resize(1);
 	}
-	else if (size() <= capacity())
+	else if (size() == capacity())
 	{
 
 		resize(numCapacity *= 2);
