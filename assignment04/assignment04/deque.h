@@ -26,6 +26,7 @@ public:
    deque();
    deque(int amount);
    deque(deque<T> & rhs);
+   ~deque() { clear(); }
 
    /********************************************
    * ASSIGNMENT OPERATOR
@@ -54,7 +55,7 @@ public:
       int tempiFront = rhs.iFront;
       for (int i = rhs.iFront; i < rhs.iBack; i++)
       {
-         push_back(rhs.data[iNormalize(i)]); //What on earth is iNormalize?
+         push_back(rhs.data[rhs.iNormalize(i)]); //What on earth is iNormalize?
       }
       return *this;
    }
@@ -171,7 +172,7 @@ void deque<T>::push_back(const T & element)
 		resize(numCapacity *= 2);
 	}
 	iBack++;
-	data[iBack] = element;
+	data[iBackNormalized()] = element;
 
 }
 
@@ -189,7 +190,7 @@ void deque<T>::push_front(const T & element)
 	}
 
 	iFront++;
-	data[iFront] = element;
+	data[iFrontNormalized()] = element;
 
 
 }
@@ -233,10 +234,10 @@ void deque<T>::resize(int numCapacity)
 	int capacityNew = 0;
 
    // do nothing if there is nothing to do
-   if (capacityNew < numCapacity)
+   /*if (capacityNew < numCapacity)
    {
       return;
-   }
+   }*/
    try
    {
       T *dataNew = new T[capacityNew];
@@ -293,9 +294,9 @@ bool deque<T>::empty()
 template<class T>
 void deque<T>::clear()
 {
-   data = NULL;
-   delete[] data;
-   numCapacity = 0;
+   //data = NULL;
+   //delete[] data;
+   //numCapacity = 0;
    iFront = 0;
    iBack = -1;
 }
@@ -352,9 +353,9 @@ int deque<T>::iBackNormalized()
 }
 
 template<class T>
-int deque<T>::iNormalize(int i)
+int deque<T>::iNormalize(int num)
 {
-   return 0;
+   return (num % numCapacity + numCapacity) % numCapacity;
 }
 
 } //end namespace custom
