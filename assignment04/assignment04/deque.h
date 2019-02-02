@@ -254,7 +254,7 @@ void deque<T>::resize(int capacityNew)
       T *dataNew = new T[capacityNew];
       //std::cout << "Resize called. iFrontNormalized: " << iFrontNormalized() << std::endl;
       //std::cout << "iBackNormalized: " << iBackNormalized() << std::endl;
-      for (int i = iFront; i < iBack + 1; i++) {
+      for (int i = 0; i < iBack + 1; i++) {
          dataNew[i] = data[i];
       }
 
