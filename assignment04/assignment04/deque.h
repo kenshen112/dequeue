@@ -139,7 +139,7 @@ deque<T>::deque(deque<T>& rhs)
    iFront = 0;
    //clear();
 
-   if (capacity() <= rhs.size())
+   if (capacity() == rhs.size())
    {
       resize(rhs.size());
    }
@@ -194,7 +194,7 @@ void deque<T>::push_front(const T & element)
 	{
 		resize(1);
 	}
-	else if (iFront == numCapacity)
+	else if (size() == capacity())
 	{
 
 		resize(numCapacity *= 2);
@@ -252,8 +252,9 @@ void deque<T>::resize(int capacityNew)
    {
       //Create new deque
       T *dataNew = new T[capacityNew];
-      //copy data
-      for (int i = iFront; i < iBack + 1; i++) {
+      //std::cout << "Resize called. iFrontNormalized: " << iFrontNormalized() << std::endl;
+      //std::cout << "iBackNormalized: " << iBackNormalized() << std::endl;
+      for (int i = 0; i < iBack + 1; i++) {
          dataNew[i] = data[i];
       }
 
