@@ -110,7 +110,7 @@ template<class T>
 deque<T>::deque()
 {
    iFront = 0;
-   iBack = 0;
+   iBack = -1;
    numCapacity = 0;
    isEmpty = true;
    data = new T[numCapacity];
@@ -123,7 +123,7 @@ template<class T>
 deque<T>::deque(int amount)
 {
    iFront = 0;
-   iBack = 0;
+   iBack = -1;
    numCapacity = amount;
    data = new T[numCapacity];
    isEmpty = true;
