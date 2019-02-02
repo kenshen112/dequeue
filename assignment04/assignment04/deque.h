@@ -35,11 +35,12 @@ public:
    {
       iBack = -1;
       iFront = 0;
-      if (rhs.numCapacity == 0)
+      clear();
+      /*if (rhs.numCapacity == 0)
       {
 		  clear();
          return *this;
-      }
+      }*/
 
       if (capacity() < rhs.size())
       {
@@ -138,13 +139,17 @@ deque<T>::deque(deque<T>& rhs)
    assert(rhs.numCapacity >= 0);
    iBack = -1;
    iFront = 0;
-   
-   if (rhs.numCapacity == 0)
+   clear();
+   if (numCapacity == 0)
+   {
+      rhs.numCapacity = 1;
+   }
+   /*if (rhs.numCapacity == 0)
      {
        clear();
-     }        
-   
-   if (capacity() < rhs.size())
+     }*/
+
+   if (capacity() <= rhs.size())
    {
       resize(rhs.size());
    }
@@ -241,6 +246,7 @@ void deque<T>::resize(int capacityNew)
    {
       return;
    }
+
    try
    {
       T *dataNew = new T[capacityNew];
@@ -263,7 +269,7 @@ void deque<T>::resize(int capacityNew)
 template<class T>
 int deque<T>::size()
 {
-   if (iBack == 0 && iFront == 0)
+   if (iBack == -1 && iFront == 0)
    {
       return 0;
    }
