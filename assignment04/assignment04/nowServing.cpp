@@ -65,8 +65,8 @@ void nowServing()
    }
 
    //Example function calls for service request. We can move them later.
-   request.getRequest();
    request.setRequest(rData);
+   request.getRequest();
    request.incrementTime(time);
    request.removeRequest();
    request.display();
