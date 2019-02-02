@@ -13,8 +13,8 @@
 ##############################################################
 # The main rule
 ##############################################################
-a.out: deque.h assignment04.o nowServing.o
-	g++ -o a.out assignment04.o nowServing.o -std=c++11
+a.out: deque.h assignment04.o nowServing.o serviceRequest.o
+	g++ -o a.out assignment04.o nowServing.o serviceRequest.o -std=c++11
 	tar -cf assignment04.tar *.h *.cpp makefile
 
 ##############################################################
@@ -27,3 +27,6 @@ assignment04.o: deque.h assignment04.cpp
 
 nowServing.o: nowServing.h nowServing.cpp deque.h
 	g++ -c nowServing.cpp -std=c++11
+	
+serviceRequest.o: serviceRequest.h serviceRequest.cpp nowServing.h
+	g++ -c serviceRequest.cpp -std=c++11
