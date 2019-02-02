@@ -189,8 +189,6 @@ void deque<T>::push_front(const T & element)
 
 	iFront--;
 	data[iFront] = element;
-
-
 }
 
 template<class T>
@@ -226,16 +224,14 @@ void deque<T>::pop_front()
  * resizes the deque buffer
  *******************************************/
 template<class T>
-void deque<T>::resize(int numCapacity)
+void deque<T>::resize(int capacityNew)
 {
 
-	int capacityNew = 0;
-
    // do nothing if there is nothing to do
-   /*if (capacityNew < numCapacity)
+   if (capacityNew < numCapacity)
    {
       return;
-   }*/
+   }
    try
    {
       T *dataNew = new T[capacityNew];
@@ -299,9 +295,9 @@ bool deque<T>::empty()
 template<class T>
 void deque<T>::clear()
 {
-   //data = NULL;
-   //delete[] data;
-   //numCapacity = 0;
+   data = NULL;
+   delete[] data;
+   numCapacity = 0;
    iFront = 0;
    iBack = -1;
 }
