@@ -135,8 +135,6 @@ deque<T>::deque(deque<T>& rhs)
 {
    assert(rhs.numCapacity >= 0);
 
-   clear();
-
    if (capacity() < rhs.size())
    {
       resize(rhs.size());
