@@ -33,14 +33,9 @@ public:
    *******************************************/
    deque<T> & operator=(deque<T> & rhs)
    {
+      //clear();
       iBack = -1;
       iFront = 0;
-      clear();
-      /*if (rhs.numCapacity == 0)
-      {
-		  clear();
-         return *this;
-      }*/
 
       if (capacity() < rhs.size())
       {
@@ -89,7 +84,6 @@ public:
    bool empty();
    void clear();
 
-
    /************************
    * Are we at the front?
    ***********************/
@@ -99,6 +93,10 @@ public:
    * Are we at the back?
    ************************/
    T back();
+
+   /************************
+   * Circular deque
+   ************************/
    int iFrontNormalized();
    int iBackNormalized();
    int iNormalize(int i);
@@ -139,15 +137,7 @@ deque<T>::deque(deque<T>& rhs)
    assert(rhs.numCapacity >= 0);
    iBack = -1;
    iFront = 0;
-   clear();
-   if (numCapacity == 0)
-   {
-      rhs.numCapacity = 1;
-   }
-   /*if (rhs.numCapacity == 0)
-     {
-       clear();
-     }*/
+   //clear();
 
    if (capacity() <= rhs.size())
    {
@@ -165,12 +155,16 @@ deque<T>::deque(deque<T>& rhs)
    numCapacity = rhs.numCapacity;
    int tempFront = rhs.iFront;
 
-   for (int i = rhs.iBack; i < rhs.iFront; i++)
+   for (int i = rhs.iFront; i < rhs.iBack + 1; i++)
    {
-      push_back(rhs.data[i % rhs.numCapacity]);
+      push_back(rhs.data[rhs.iNormalize(i)]); //What on earth is iNormalize?
    }
 }
 
+/***********************************************
+* DEQUE : PUSH_BACK
+* adds element to the back of the deque
+***********************************************/
 template<class T>
 void deque<T>::push_back(const T & element)
 {
@@ -178,16 +172,20 @@ void deque<T>::push_back(const T & element)
 	{
 		resize(1);
 	}
-	else if (iBack == numCapacity)
+	else if (size() == capacity())
 	{
 
 		resize(numCapacity *= 2);
 	}
 	iBack++;
-	data[iBack] = element;
+	data[iBackNormalized()] = element;
 
 }
 
+/***********************************************
+* DEQUE : PUSH_FRONT
+* adds an element to the front of the deque
+***********************************************/
 template<class T>
 void deque<T>::push_front(const T & element)
 {
@@ -202,9 +200,13 @@ void deque<T>::push_front(const T & element)
 	}
 
 	iFront--;
-	data[iFront] = element;
+	data[iFrontNormalized()] = element;
 }
 
+/***********************************************
+* DEQUE : POP_BACK
+* removes an element from the back of the deque
+***********************************************/
 template<class T>
 void deque<T>::pop_back()
 {
@@ -215,12 +217,16 @@ void deque<T>::pop_back()
 
 	iBack--;
 
-	if (iBack < 0)
+	/*if (iBack < 0)
 	{
 		iBack = numCapacity - 1;
-	}
+	}*/
 }
 
+/***********************************************
+* DEQUE : POP_FRONT
+* removes an element from the back of the deque
+***********************************************/
 template<class T>
 void deque<T>::pop_front()
 {
@@ -229,8 +235,8 @@ void deque<T>::pop_front()
 		throw "ERROR: unable to pop from the front of empty deque";
 	}
 
-	iFront--;
-	iFront = (iFront + 1) % numCapacity;
+	iFront++;
+	//iFront = (iFront + 1) % numCapacity;
 }
 
 /********************************************
@@ -251,7 +257,8 @@ void deque<T>::resize(int capacityNew)
    {
       T *dataNew = new T[capacityNew];
 
-      for (int i = 0; i < iFront; i++) {
+      //(int i = rhs.iBack; i < rhs.iFront; i++)
+      for (int i = iFront; i < iBack; i++) {
          dataNew[i] = data[i];
       }
 
@@ -263,9 +270,10 @@ void deque<T>::resize(int capacityNew)
    }
 }
 
-/********************
-* Returns Size
-********************/
+/***********************************************
+* DEQUE : SIZE
+* return the size of the deque
+***********************************************/
 template<class T>
 int deque<T>::size()
 {
@@ -279,22 +287,24 @@ int deque<T>::size()
    }
 }
 
-/********************
-* Returns Capacity
-********************/
+/***********************************************
+* DEQUE : CAPACITY
+* returns the capacity of the deque
+***********************************************/
 template<class T>
 int deque<T>::capacity()
 {
    return numCapacity;
 }
 
-/*****************
-Is it empty?
-****************/
+/***********************************************
+* DEQUE : EMPTY
+* determines if the queue is empty
+***********************************************/
 template<class T>
 bool deque<T>::empty()
 {
-   if (iBack <= iFront)
+   if (size() <= 0)
    {
       return true;
    }
@@ -304,9 +314,10 @@ bool deque<T>::empty()
    }
 }
 
-/**************************
-* Clears the entire deque
-**************************/
+/***********************************************
+* DEQUE : CLEAR
+* Clears and the deque
+***********************************************/
 template<class T>
 void deque<T>::clear()
 {
@@ -317,27 +328,27 @@ void deque<T>::clear()
    iBack = -1;
 }
 
-/************************
-* Are we at the front?
-***********************/
+/***********************************************
+* DEQUE : FRONT
+* returns the value of the front element
+***********************************************/
 template<class T>
 T deque<T>::front()
 {
-   iBack = -1;
-   iFront = 0;
    if (empty() == true)
    {
       throw "ERROR: attempting to access an element in an empty queue";
    }
    else
    {
-      return data[iFront];
+      return data[iFrontNormalized()];
    }
 }
 
-/************************
-* Are we at the back?
-***********************/
+/***********************************************
+* DEQUE : BACK
+* returns the value of the back element
+***********************************************/
 template<class T>
 T deque<T>::back()
 {
@@ -347,34 +358,38 @@ T deque<T>::back()
    }
    else
    {
-      return data[iBack];
+      return data[iBackNormalized()];
    }
 }
 
-/*************************
+/***********************************************
+* DEQUE : iFrontNormalized
 * Returns index Front
-*************************/
+***********************************************/
 template<class T>
 int deque<T>::iFrontNormalized()
 {
    return iNormalize(iFront);
 }
 
-/**********************
-* Returns index Back
-**********************/
-
+/***********************************************
+* DEQUE : iBackNormalized
+* Returns index back
+***********************************************/
 template<class T>
 int deque<T>::iBackNormalized()
 {
    return (iBack - 1) % numCapacity;
 }
 
+/***********************************************
+* DEQUE : iNormalize
+* Assists in making deque circular
+***********************************************/
 template<class T>
 int deque<T>::iNormalize(int num)
 {
    return (num % numCapacity + numCapacity) % numCapacity;
 }
-
 } //end namespace custom
 #endif /* DEQUE_H */
