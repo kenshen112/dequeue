@@ -51,7 +51,7 @@ public:
       }
       numCapacity = rhs.numCapacity;
       int tempiFront = rhs.iFront;
-      for (int i = rhs.iFront; i < rhs.iBack; i++)
+      for (int i = rhs.iFront; i < rhs.iBack + 1; i++)
       {
          push_back(rhs.data[rhs.iNormalize(i)]); //What on earth is iNormalize?
       }
@@ -157,7 +157,7 @@ deque<T>::deque(deque<T>& rhs)
 
    for (int i = rhs.iFront; i < rhs.iBack + 1; i++)
    {
-      push_back(rhs.data[rhs.iNormalize(i)]); //What on earth is iNormalize?
+      push_back(rhs.data[rhs.iNormalize(i)]);
    }
 }
 
@@ -178,6 +178,7 @@ void deque<T>::push_back(const T & element)
 		resize(numCapacity *= 2);
 	}
 	iBack++;
+   //std::cout << "pusbback: iBackNormalize: " << iBackNormalized() << std::endl;
 	data[iBackNormalized()] = element;
 
 }
@@ -216,11 +217,6 @@ void deque<T>::pop_back()
 	}
 
 	iBack--;
-
-	/*if (iBack < 0)
-	{
-		iBack = numCapacity - 1;
-	}*/
 }
 
 /***********************************************
@@ -236,7 +232,6 @@ void deque<T>::pop_front()
 	}
 
 	iFront++;
-	//iFront = (iFront + 1) % numCapacity;
 }
 
 /********************************************
@@ -255,15 +250,18 @@ void deque<T>::resize(int capacityNew)
 
    try
    {
+      //Create new deque
       T *dataNew = new T[capacityNew];
-
-      //(int i = rhs.iBack; i < rhs.iFront; i++)
-      for (int i = iFront; i < iBack; i++) {
+      //copy data
+      for (int i = iFront; i < iBack + 1; i++) {
          dataNew[i] = data[i];
       }
 
+      //copy deque
       data = dataNew;
+      //set new capacity
       numCapacity = capacityNew;
+      //std::cout << "Resize called. numCapacity: " << numCapacity << std::endl;
    }
    catch (std::bad_alloc) {
       throw "ERROR: Unable to allocate new buffer for deque";
@@ -341,6 +339,7 @@ T deque<T>::front()
    }
    else
    {
+      //std::cout << "front: iFrontNormalize: " << iFrontNormalized() << std::endl;
       return data[iFrontNormalized()];
    }
 }
@@ -358,6 +357,7 @@ T deque<T>::back()
    }
    else
    {
+      //std::cout << "back: iBackNormalize: " << iBackNormalized() << std::endl;
       return data[iBackNormalized()];
    }
 }
@@ -379,7 +379,8 @@ int deque<T>::iFrontNormalized()
 template<class T>
 int deque<T>::iBackNormalized()
 {
-   return (iBack - 1) % numCapacity;
+   
+   return iNormalize(iBack);
 }
 
 /***********************************************
@@ -389,7 +390,8 @@ int deque<T>::iBackNormalized()
 template<class T>
 int deque<T>::iNormalize(int num)
 {
-   return (num % numCapacity + numCapacity) % numCapacity;
+   //std::cout << "iNormalize: " << (num % numCapacity + numCapacity) % numCapacity << std::endl;
+return (num % numCapacity + numCapacity) % numCapacity;
 }
 } //end namespace custom
 #endif /* DEQUE_H */
