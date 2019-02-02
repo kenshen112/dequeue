@@ -10,10 +10,11 @@
 
 #include <iostream>     // for ISTREAM, OSTREAM, CIN, and COUT
 #include <string>       // for STRING
-#include <cassert>      // for ASSERT
+#include <cassert> // for ASSERT  
+#include <sstream>
 #include "nowServing.h" // for nowServing() prototype
 #include "deque.h"      // for DEQUE
-using namespace std;
+using namespace std; // Dear CS teachers, https://stackoverflow.com/questions/1452721/why-is-using-namespace-std-considered-bad-practice
 
 /************************************************
  * NOW SERVING
@@ -33,6 +34,35 @@ void nowServing()
    ServiceRequest request;
    int time = 0;
    requestData rData;
+   std::string data;
+   std::string token;
+   std::string inputArr[4];  //array for input tokens
+
+   std::getline(std::cin, data);
+
+   std::istringstream ss(data);
+
+   int i = 0;
+   while (ss >> token)
+   {
+	   inputArr[i] = token;
+	   i++;
+   }
+
+   if (inputArr[0] == "!!")
+   {
+	   rData.urgent = true;
+	   rData.sClass = inputArr[1];
+	   rData.name = inputArr[2];
+	   rData.minutesRequired = stoi(inputArr[3]);
+   }
+
+   else
+   {
+	   rData.sClass = inputArr[0];
+	   rData.name = inputArr[1];
+	   rData.minutesRequired = stoi(inputArr[2]);
+   }
 
    //Example function calls for service request. We can move them later.
    request.getRequest();

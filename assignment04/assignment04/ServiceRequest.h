@@ -50,7 +50,7 @@ public:
    void setRequest(requestData rData);
 
    void removeRequest();
-   int incrementTime(int time);
+   int incrementTime(int &time);
    void display();
 };
 

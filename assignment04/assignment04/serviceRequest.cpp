@@ -22,7 +22,7 @@ ServiceRequest::ServiceRequest()
 ***********************************************/
 void ServiceRequest::getRequest()
 {
-
+	requestData tempRequest;
 }
 
 /***********************************************
@@ -31,7 +31,7 @@ void ServiceRequest::getRequest()
 ***********************************************/
 void ServiceRequest::setRequest(requestData rData)
 {
-
+	request.push_back(rData);
 }
 
 /***********************************************
@@ -40,15 +40,21 @@ void ServiceRequest::setRequest(requestData rData)
 ***********************************************/
 void ServiceRequest::removeRequest()
 {
-
+	request.pop_front();
 }
 
 /***********************************************
 * SERVICEREQUEST : incrementTime
 * increments the request time down
 ***********************************************/
-int ServiceRequest::incrementTime(int time)
+int ServiceRequest::incrementTime(int &time)
 {
+	for (int i = request.front().minutesRequired; time < i; time++)
+	{
+		display();
+	}
+
+	removeRequest();
    return 0;
 }
 
