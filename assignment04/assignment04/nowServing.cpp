@@ -33,10 +33,13 @@ void nowServing()
    // your code here
    ServiceRequest request;
    int time = 0;
+   int numRequest = 0;
    requestData rData;
    std::string data;
    std::string token;
    std::string inputArr[4];  //array for input tokens
+
+   std::cout << "<" << numRequest << ">";
 
    std::getline(std::cin, data);
 
@@ -65,8 +68,8 @@ void nowServing()
    }
 
    //Example function calls for service request. We can move them later.
-   request.getRequest();
    request.setRequest(rData);
+   request.getRequest();
    request.incrementTime(time);
    request.removeRequest();
    request.display();

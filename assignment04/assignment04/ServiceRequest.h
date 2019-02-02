@@ -45,7 +45,7 @@ public:
    ServiceRequest();
 
    //prototype functions
-   void getRequest();
+   requestData getRequest();
 
    void setRequest(requestData rData);
 
