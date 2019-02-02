@@ -285,7 +285,7 @@ Is it empty?
 template<class T>
 bool deque<T>::empty()
 {
-   if (iBack == iFront)
+   if (iBack <= iFront)
    {
       return true;
    }
