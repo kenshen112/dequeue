@@ -172,7 +172,7 @@ void deque<T>::push_back(const T & element)
 		resize(numCapacity *= 2);
 	}
 	iBack++;
-	data[iBackNormalized()] = element;
+	data[iBack] = element;
 
 }
 
@@ -190,7 +190,7 @@ void deque<T>::push_front(const T & element)
 	}
 
 	iFront++;
-	data[iFrontNormalized()] = element;
+	data[iFront] = element;
 
 
 }
