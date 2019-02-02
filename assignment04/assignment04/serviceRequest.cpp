@@ -20,9 +20,11 @@ ServiceRequest::ServiceRequest()
 * SERVICEREQUEST : getRequest
 * gets request data
 ***********************************************/
-void ServiceRequest::getRequest()
+requestData ServiceRequest::getRequest()
 {
 	requestData tempRequest;
+	tempRequest = request.front();
+	return tempRequest;
 }
 
 /***********************************************
@@ -64,5 +66,5 @@ int ServiceRequest::incrementTime(int &time)
 ***********************************************/
 void ServiceRequest::display()
 {
-
+	std::cout << "Currently serving " << getRequest().name << " for Class " << getRequest().sClass << ". Time left: " << getRequest().minutesRemaining << std::endl;
 }
