@@ -260,7 +260,14 @@ void deque<T>::resize(int numCapacity)
 template<class T>
 int deque<T>::size()
 {
-   return iBack - iFront + 1;
+   if (iBack == 0 && iFront == 0)
+   {
+      return 0;
+   }
+   else
+   {
+      return iBack - iFront + 1;
+   }
 }
 
 /********************
