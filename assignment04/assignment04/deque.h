@@ -8,6 +8,7 @@
 ************************************************************************/
 #ifndef DEQUE_H
 #define DEQUE_H
+#include <iostream>
 #include <assert.h>
 
 namespace custom {
@@ -45,7 +46,7 @@ public:
       {
          data = new T[rhs.numCapacity];
       }
-      catch (typename std::bad_alloc)
+      catch (std::bad_alloc)
       {
          throw "ERROR: Unable to allocate buffer";
       }
@@ -144,7 +145,7 @@ deque<T>::deque(deque<T>& rhs)
    {
       data = new T[rhs.numCapacity];
    }
-   catch (typename std::bad_alloc)
+   catch (std::bad_alloc)
    {
       throw "ERROR: Unable to allocate buffer";
    }
@@ -247,7 +248,7 @@ void deque<T>::resize(int numCapacity)
       data = dataNew;
       numCapacity = capacityNew;
    }
-   catch (typename std::bad_alloc) {
+   catch (std::bad_alloc) {
       throw "ERROR: Unable to allocate new buffer for deque";
    }
 }
