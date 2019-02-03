@@ -137,7 +137,6 @@ deque<T>::deque(deque<T>& rhs)
    assert(rhs.numCapacity >= 0);
    iBack = -1;
    iFront = 0;
-   //clear();
 
    if (capacity() == rhs.size())
    {
@@ -178,7 +177,6 @@ void deque<T>::push_back(const T & element)
 		resize(numCapacity *= 2);
 	}
 	iBack++;
-   //std::cout << "pusbback: iBackNormalize: " << iBackNormalized() << std::endl;
 	data[iBackNormalized()] = element;
 
 }
@@ -199,7 +197,6 @@ void deque<T>::push_front(const T & element)
 
 		resize(numCapacity *= 2);
 	}
-
 	iFront--;
 	data[iFrontNormalized()] = element;
 }
@@ -241,28 +238,31 @@ void deque<T>::pop_front()
 template<class T>
 void deque<T>::resize(int capacityNew)
 {
-
+   bool full = false;
    // do nothing if there is nothing to do
    if (capacityNew < numCapacity)
    {
       return;
    }
-
+   T x;
+   int s;
    try
    {
-      //Create new deque
+      //Create new deque  
       T *dataNew = new T[capacityNew];
-      //std::cout << "Resize called. iFrontNormalized: " << iFrontNormalized() << std::endl;
-      //std::cout << "iBackNormalized: " << iBackNormalized() << std::endl;
-      for (int i = 0; i < iBack + 1; i++) {
+
+      for (int i = 0; i < size(); i++)
+      {
          dataNew[i] = data[i];
+
+         x = dataNew[i];
       }
 
       //copy deque
       data = dataNew;
       //set new capacity
       numCapacity = capacityNew;
-      //std::cout << "Resize called. numCapacity: " << numCapacity << std::endl;
+      
    }
    catch (std::bad_alloc) {
       throw "ERROR: Unable to allocate new buffer for deque";
@@ -340,7 +340,6 @@ T deque<T>::front()
    }
    else
    {
-      //std::cout << "front: iFrontNormalize: " << iFrontNormalized() << std::endl;
       return data[iFrontNormalized()];
    }
 }
@@ -358,7 +357,6 @@ T deque<T>::back()
    }
    else
    {
-      //std::cout << "back: iBackNormalize: " << iBackNormalized() << std::endl;
       return data[iBackNormalized()];
    }
 }
@@ -391,8 +389,7 @@ int deque<T>::iBackNormalized()
 template<class T>
 int deque<T>::iNormalize(int num)
 {
-   //std::cout << "iNormalize: " << (num % numCapacity + numCapacity) % numCapacity << std::endl;
-return (num % numCapacity + numCapacity) % numCapacity;
+   return (num % numCapacity + numCapacity) % numCapacity;
 }
 } //end namespace custom
 #endif /* DEQUE_H */

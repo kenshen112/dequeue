@@ -1,5 +1,15 @@
 ﻿  assignment04.cpp
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(257): warning C4101: 's': unreferenced local variable
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(249): note: while compiling class template member function 'void custom::deque<double>::resize(int)'
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(42): note: see reference to function template instantiation 'void custom::deque<double>::resize(int)' being compiled
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\assignment04.cpp(106): note: see reference to class template instantiation 'custom::deque<double>' being compiled
   nowServing.cpp
   serviceRequest.cpp
+c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(257): warning C4101: 's': unreferenced local variable
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(249): note: while compiling class template member function 'void custom::deque<requestData>::resize(int)'
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(173): note: see reference to function template instantiation 'void custom::deque<requestData>::resize(int)' being compiled
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\deque.h(110): note: while compiling class template member function 'custom::deque<requestData>::deque(void)'
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\servicerequest.cpp(15): note: see reference to function template instantiation 'custom::deque<requestData>::deque(void)' being compiled
+  c:\users\kenyon b\source\repos\kenshen112\dequeue\assignment04\assignment04\servicerequest.h(41): note: see reference to class template instantiation 'custom::deque<requestData>' being compiled
   Generating Code...
   assignment04.vcxproj -> C:\Users\Kenyon B\source\repos\kenshen112\dequeue\assignment04\Debug\assignment04.exe
