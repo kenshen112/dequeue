@@ -30,7 +30,7 @@ void nowServing()
    cout << "\tnone                         : no new request this minute\n";
    cout << "\tfinished                     : end simulation\n";
 
-   // your code here
+   //variables
    ServiceRequest request;
    int time = 0;
    int numRequest = 0;
@@ -39,10 +39,10 @@ void nowServing()
    std::string token;
    std::string inputArr[4];  //array for input tokens
 
+   //User input
    std::cout << "<" << numRequest << ">";
    std::cin.ignore();
    std::getline(std::cin, data);
-
    std::istringstream ss(data);
 
    int i = 0;
@@ -52,6 +52,7 @@ void nowServing()
 	   i++;
    }
 
+   //Urgent request
    if (inputArr[0] == "!!")
    {
 	   rData.urgent = true;
@@ -60,6 +61,7 @@ void nowServing()
 	   rData.minutesRequired = stoi(inputArr[3]);
    }
 
+   //Normal request
    else
    {
 	   rData.sClass = inputArr[0];
@@ -67,12 +69,7 @@ void nowServing()
 	   rData.minutesRequired = stoi(inputArr[2]);
    }
 
-   //Example function calls for service request. We can move them later.
    request.setRequest(rData);
-   request.getRequest();
-   request.incrementTime(time);
-   request.removeRequest();
-   request.display();
 
    // end
    cout << "End of simulation\n";

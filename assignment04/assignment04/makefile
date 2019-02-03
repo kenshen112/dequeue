@@ -1,13 +1,24 @@
 ###############################################################
 # Program:
 #     Assignment 04, DEQUE
-#     Brother XXXXX, CS235
+#     Brother Kirby, CS235
 # Author:
-#     <your name here>
+#     Kenyon Bunker
+#     Tim O'Barr
 # Summary:
-#     <put a description here>
+#     A Now Serving application using a custom deque class
 # Time:
-#     <how long did it take to complete this program>?
+#     Kenyon 10
+#	  Tim    10
+#     Together 5
+# The most difficult part:
+#     Kenyon
+#     Getting the deque to be circular. Any pointers you have
+#     would be great. We narrowed it down
+#     to how resize was putting data onto the new deque.
+#     Tim
+#     	Designing nowserving. How it would all fit together.
+#       
 ###############################################################
 
 ##############################################################
